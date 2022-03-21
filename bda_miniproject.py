@@ -15,7 +15,7 @@ Original file is located at
 # drive.mount('/content/drive')
 
 # Commented out IPython magic to ensure Python compatibility.
-%%writefile app.py
+# %%writefile app.py
 
 # Core Pkg
 import streamlit as st 
