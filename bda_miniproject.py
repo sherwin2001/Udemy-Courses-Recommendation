@@ -7,15 +7,16 @@ Original file is located at
     https://colab.research.google.com/drive/1f1iido_TOKgIoLZR50Rugs3xqgW6asjI
 """
 
-!pip install streamlit
+# !pip install streamlit
 
-!pip install pyngrok
+# !pip install pyngrok
 
-from google.colab import drive
-drive.mount('/content/drive')
+# from google.colab import drive
+# drive.mount('/content/drive')
 
-Commented out IPython magic to ensure Python compatibility.
+# Commented out IPython magic to ensure Python compatibility.
 %%writefile app.py
+
 # Core Pkg
 import streamlit as st 
 import streamlit.components.v1 as stc 
