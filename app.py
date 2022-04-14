@@ -73,7 +73,7 @@ def search_term_if_not_found(term,df):
 
 def main():
 
-	st.title("Course Recommendation App")
+	st.title("Udemy Course Recommendation App")
 
 	menu = ["Home","Recommend","About"]
 	choice = st.sidebar.selectbox("Menu",menu)
