@@ -117,7 +117,7 @@ def main():
 
 	else:
 		st.subheader("About")
-		st.text("Course Recommendation System App basically aims at recommending courses that are")
+		st.text("Udemy Course Recommendation App basically aims at recommending courses that are")
 		st.text(" similar to those that you have completed or joined.")
 		st.text("To find recommendations one needs to specify the correct name of their course.") 
 		st.text("If one uses keywords, only suggestions related to the search term will be displayed.") 
